@@ -1,10 +1,10 @@
 <?php
 function conn(){
-    $hostname="localhost";
+    $host="localhost";
     $usuariodb="root";
-    $password="12345";
+    $password="";
     $dbname="usuario";
-    $conectar = mysqli_connect($hostname, $usuariodb, $password, $dbname);
+    $conectar = mysqli_connect($host, $usuariodb, $password, $dbname);
 return $conectar;
 }
 ?>
