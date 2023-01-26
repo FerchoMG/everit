@@ -6,6 +6,47 @@
   font-family: 'Mukta', sans-serif;
 }
 
+.principal {
+
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #0c0c0c;
+  border: 1px transparent;
+  border-radius: 15px;
+}
+
+.principal h1 {
+  color: #ff9100
+}
+
+.principal p {
+  color: white;
+  text-align: justify;
+  font-family: 'Nunito Sans';
+}
+
+.pre-footer img {
+  border: 1px transparent;
+  border-radius: 20px;
+}
+
+.pre-footer {
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto
+}
+
+.pre-footer h2 {
+  font-family: 'Nunito Sans';
+  font-variant: small-caps;
+  color: #fbff00;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 
 body {
@@ -435,6 +476,15 @@ footer {
     align-items: center;
     justify-content: center;
 
+  }
+
+  .principal h1 {
+    font-size: 70px;
+    font-variant: small-caps;
+  }
+
+  .principal p {
+    font-size: 25px;
   }
 
   .slider {
