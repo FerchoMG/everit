@@ -24,12 +24,7 @@ sr.reveal('.contactanos', {
     distance: '-100px'
 
 });
-sr.reveal('footer div', {
-	duration: 3000,
-    origin: 'left',
-    distance: '-100px'
 
-});
 sr.reveal('.adventages-cards', {
 	duration: 1000,
     origin: 'right',
@@ -79,8 +74,22 @@ sr.reveal('#product5', {
     distance: '-100px'
 });
 
+sr.reveal('#product5', {
+	duration: 1000,
+    origin: 'left',
+    distance: '-100px'
+});
 
-
+sr.reveal('.form', {
+	duration: 1000,
+    origin: 'left',
+    distance: '-100px'
+});
+sr.reveal('.button', {
+	duration: 1000,
+    origin: 'right',
+    distance: '-100px'
+});
 
 
 const typed = new Typed('.typed',{
