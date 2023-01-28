@@ -1,3 +1,88 @@
+window.sr = ScrollReveal();
+
+sr.reveal('.container-horizontal', {
+	duration: 1000,
+    origin: 'left',
+    distance: '-100px'
+
+});
+sr.reveal('.container', {
+	duration: 1000,
+    origin: 'left',
+    distance: '-100px'
+
+});
+sr.reveal('.adventages-cards', {
+	duration: 1000,
+    origin: 'right',
+    distance: '-100px'
+
+});
+sr.reveal('.contactanos', {
+	duration: 2000,
+    origin: 'top',
+    distance: '-100px'
+
+});
+sr.reveal('footer div', {
+	duration: 3000,
+    origin: 'left',
+    distance: '-100px'
+
+});
+sr.reveal('.adventages-cards', {
+	duration: 1000,
+    origin: 'right',
+    distance: '-100px'
+
+});
+sr.reveal('.principal', {
+	duration: 1000,
+    origin: 'right',
+    distance: '-100px'
+
+});
+sr.reveal('.pre-footer h2', {
+	duration: 1000,
+    origin: 'left',
+    distance: '-100px'
+});
+sr.reveal('.pre-footer img', {
+	duration: 1000,
+    origin: 'top',
+    distance: '-100px'
+});
+
+sr.reveal('#product1', {
+	duration: 1000,
+    origin: 'left',
+    distance: '-100px'
+});
+sr.reveal('#product2', {
+	duration: 1000,
+    origin: 'right',
+    distance: '-100px'
+});
+sr.reveal('#product3', {
+	duration: 1000,
+    origin: 'left',
+    distance: '-100px'
+});
+sr.reveal('#product4', {
+	duration: 1000,
+    origin: 'right',
+    distance: '-100px'
+});
+sr.reveal('#product5', {
+	duration: 1000,
+    origin: 'left',
+    distance: '-100px'
+});
+
+
+
+
+
 const typed = new Typed('.typed',{
   strings: ['',
     'increibles',
@@ -18,3 +103,4 @@ const typed = new Typed('.typed',{
 	cursorChar: '', 
 	contentType: 'html', 
 });
+
