@@ -1,5 +1,38 @@
 window.sr = ScrollReveal();
 
+var modal = document.getElementById("myModal");
+var modalcont =document.getElementById("modalcont")
+var btn = document.querySelector(".buy-button");
+var btn2 =document.getElementById("myBtn2")
+var btn3 =document.getElementById("myBtn3")
+var btn4 =document.getElementById("myBtn4")
+var btn5 =document.getElementById("myBtn5")
+btn.onclick = function() {
+  modal.style.display = "flex";
+}
+btn2.onclick = function() {
+    modal.style.display = "flex";
+  }
+  btn3.onclick = function() {
+    modal.style.display = "flex";
+  }
+  btn4.onclick = function() {
+    modal.style.display = "flex";
+  }
+  btn5.onclick = function() {
+    modal.style.display = "flex";
+  }
+
+
+
+modal.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+
+
+
 sr.reveal('.container-horizontal', {
 	duration: 1000,
     origin: 'left',
@@ -91,6 +124,14 @@ sr.reveal('.button', {
     distance: '-100px'
 });
 
+sr.reveal('.button', {
+	duration: 1000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+
+
 
 const typed = new Typed('.typed',{
   strings: ['',
@@ -112,4 +153,5 @@ const typed = new Typed('.typed',{
 	cursorChar: '', 
 	contentType: 'html', 
 });
+
 
